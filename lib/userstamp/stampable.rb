@@ -12,7 +12,7 @@ module Ddb #:nodoc:
     # This will cause the plug-in to use columns named <tt>created_by</tt>,
     # <tt>updated_by</tt>, and <tt>deleted_by</tt>.
     mattr_accessor :compatibility_mode
-    @@compatibility_mode = false
+    @@compatibility_mode = true
 
     # Extends the stamping functionality of ActiveRecord by automatically recording the model
     # responsible for creating, updating, and deleting the current object. See the Stamper
